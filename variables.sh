@@ -25,6 +25,8 @@ b=4
 #every arthematic operation in shell has to be written as in brackets ($a+$b)
 #now lets assign that ($a+$b) value to the variable called Sum
 
-Sum=(($a+$b)) #the syntax to perform any arthematic operation in shell is ((....))
+Sum=(($a+$b)) 
+
+#the syntax to perform any arthematic operation in shell is ((....))
 
 echo "Sum of a and b : $Sum"
