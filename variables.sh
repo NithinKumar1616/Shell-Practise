@@ -27,4 +27,4 @@ b=4
 
 Sum=(($a+$b)) #the syntax to perform any arthematic operation in shell is ((....))
 
-echo "Sum of a and b ::" Sum
+echo "Sum of a and b : $Sum"
