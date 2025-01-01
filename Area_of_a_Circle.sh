@@ -8,6 +8,7 @@ read a
 if ( $a -eq 0 ); then
 echo "Radius of the circle should be more than 0"
 exit 1
+fi
 
 Area=$((3.14 * ($a*$a)))
 
