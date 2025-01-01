@@ -10,12 +10,12 @@ read b
 
 #validate the inputs
 
-if ! [[$a =~ ^[0-9]+([.][0-9]+)?$]]; then
+if ! [[ $a =~ ^[0-9]+([.][0-9]+)?$ ]]; then
 echo "Weight is invalid"
 exit 1
 fi
 
-if ! [[$b =~ ^[0-9]+([.][0-9]+)?$]]; then
+if ! [[ $b =~ ^[0-9]+([.][0-9]+)?$ ]]; then
 echo "Height is invalid"
 exit 1
 fi
