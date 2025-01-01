@@ -9,7 +9,7 @@ read b
 
 Sum=$(($a+$b))
 
-Subtraction=$(($a-$b))
+Substraction=$(($a-$b))
 
 Multiplication=$(($a*$b))
 
