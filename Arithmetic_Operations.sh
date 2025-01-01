@@ -7,13 +7,13 @@ read a
 echo "Enter the value of b:"
 read b
 
-Sum(($a+$b))
+Sum=$(($a+$b))
 
-subtraction(($a-$b))
+Subtraction=$(($a-$b))
 
-Multiplication(($a*$b))
+Multiplication=$(($a*$b))
 
-Division(($a/$b))
+Division=$(($a/$b))
 
 echo "Sum of a&b is $Sum"
 
