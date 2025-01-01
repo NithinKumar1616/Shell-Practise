@@ -10,6 +10,6 @@ echo "Radius of the circle should be more than 0"
 exit 1
 fi
 
-Area=$((3.14*($a**2))
+Area=$((3.14*($a**2)))
 
 echo "Area of the circle is: $Area"
