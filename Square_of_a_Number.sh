@@ -4,6 +4,6 @@
 echo "Enter the number:"
 read a
 
-square=$((a*a))
+square=$(($a*$a))
 
-echo "square of a number that you have provided is: $sqaure"
+echo "square of a number that you have provided is:$sqaure"
