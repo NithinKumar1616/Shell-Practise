@@ -6,7 +6,7 @@ b=$2
 
 Div=$((a/b))
 
-If [$b -eq 0]
+If [$b -eq 0];
 then echo "Division is not possible"
 exit 1
 
