@@ -9,5 +9,5 @@ Div=$((a/b))
 if [$b -eq 0]; then 
 echo "Division is not possible"
 exit 1
-else
+fi
 echo "The reminder of a/b is $Div"
