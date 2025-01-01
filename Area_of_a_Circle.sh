@@ -12,6 +12,6 @@ fi
 
 #Area=$((3.14*($a**2))) - this is wrong
 
-Area=$(echo "3.14 *($a**2)" | bc -l)
+Area=$(echo "3.14 *($a^2)" | bc -l)
 
 echo "Area of the circle is: $Area"
